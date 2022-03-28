@@ -49,7 +49,7 @@ var raiz = numeros.map(Math.sqrt);
 
 ```
 var numeros = [1, 4, 9];
-var dobro = numeros.map( => (num) {
+var dobro = numeros.map( (num) => {
   return num * 2;
 });
 
